@@ -1,0 +1,470 @@
+@import url(Simple-BoldOblique.woff);
+@import url(ARBFONTS-BEIN-AR-NORMAL.ttf);
+@import url(BRACELET.ttf);
+@import url(Madelyn.otf);
+@import url(Necklace.ttf);
+@import url(Warmesty.ttf);
+@import url(ZephanDemoVer.otf);
+@import url(The_Quick.ttf);
+@import url(Sultan-Medium.ttf);
+@import url(Short%20Baby.ttf);
+@import url(Contemporary%20ONE.ttf);
+@import url(whimsiscriptsskbold.ttf);
+@font-face {
+  font-family: bein;
+    src: url(ARBFONTS-BEIN-AR-NORMAL.ttf);
+
+}
+@font-face {
+  font-family: ZephanDemoVer;
+    src: url(The_Quick.ttf);
+
+}
+@font-face {
+  font-family: Warmesty;
+    src: url(Short%20Baby.ttf);
+
+}
+@font-face {
+  font-family: roman;
+    src: url(ChanticleerRomanNF.ttf);
+
+}
+@font-face {
+  font-family: Necklace;
+    src: url(Contemporary%20ONE.ttf);
+
+}
+@font-face {
+  font-family: Madelyn;
+    src:url(whimsiscriptsskbold.ttf);
+
+}
+@font-face {
+  font-family: BRACELET;
+    src: url(Sultan-Medium.ttf);
+
+}
+@font-face {
+  font-family: Simple;
+    src:url(Simple-BoldOblique.woff);
+
+}
+
+body{
+       font-size: 14px;
+    line-height: 21px;
+    color: #454545;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #edeef0;
+    
+}
+.arabic {
+    direction: rtl;
+    text-align: right;
+      font-family:bein ;
+}
+
+.english{
+    direction: ltr;
+    text-align: left;
+}
+.bg-b{
+    background: #000;
+    color: #fff;
+}
+.bg-top{
+      background: #404040;
+    line-height: 30px;
+    color: #fff;
+        font-weight: 300;
+    font-family: "Quicksand", sans-serif;
+        height: 30px;
+    line-height: 30px;
+        letter-spacing: 2px;
+        font-size: 13px;
+}
+.arabic .bg-top{
+     font-family: bein !important;
+}
+.bg-w{
+    background: #fff!important;
+}
+a{
+        color: #454545;
+    text-transform: uppercase;
+}
+.arabic .navbar-nav  {
+    padding-right: 0px!important;
+    text-align: right;
+}
+a:hover{
+        color: #454545;
+    font-weight: 600;
+}
+.modal-title {
+    color: #000;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+}
+.pad-top-15{
+  padding-top: 15px;  
+}
+.pad-5 ,.arabic .navbar-nav.pad-5{
+    padding: 5px!important;
+}
+.pad-0{
+    padding: 0px!important;
+}
+.bg-collapse{
+    height: 100vh;
+    position: fixed!important;
+    background: gray;
+    opacity: .5;
+    width: 100%;
+    
+}
+.collapse{
+   font-family: Oswald, sans-serif; 
+}
+.collapse a,.dropdown-menu a {
+    padding: 5px!important;
+}
+.collapse .nav-item ,.dropdown-menu .nav-item{
+    margin-bottom: 5px!important;
+    background: #fff;
+}
+.header{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.clear{
+  height: 140px;
+}
+.navbar-collapse{
+    min-height: 100%!important;
+    position: sticky;
+    top: 100;
+    width: 100%;
+    background: #fff;
+  z-index: 11;
+    
+}
+.card-title{
+        font-size: 20px;
+        text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+.arabic .card-title{
+ font-family: bein!important;
+}
+
+.row1 .card-img-top{
+    margin: 2%!important;
+    width: 96%!important;
+    border-radius: 0px!important;
+}
+.card-img-top{
+    max-height: 200px;
+}
+.mr-0,.row{
+    margin: 0px!important;
+}
+.card .btn{
+     border-radius: 0px!important;
+}
+.card-text ,.card .btn{
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+.arabic .card-text , .arabic .card .btn{
+ font-family: bein!important;
+}
+.Quicksand{
+   font-family: "Quicksand", sans-serif;  
+}
+.Oswald{
+    font-family: "Oswald", sans-serif;
+}
+.arabic .Quicksand , .arabic Oswald{
+ font-family: bein!important;
+}
+.bg-dark{
+        background: #34373b!important;
+    color: #fff;
+        font-size: 14px;
+  
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}    
+.row2  .main{
+    overflow: hidden;
+    height: auto;
+}
+.row2  .card  .card-img-top:hover{
+       transform: rotate(-3deg) scale(1.1, 1.1);
+    transition: 1s;
+    
+}
+
+.color img{
+    width: 25px;
+    padding: 5px;
+     border: 1px solid lightgray;
+    margin: 5px;
+}
+.color.active img , .color img:hover{
+    width: 26px;
+    padding: 2px;
+     border: 1px solid #000;
+}
+a.color:hover{
+  text-decoration: none;  
+}
+.showSingle-color:hover ,.active1{
+   border: 1px solid #000;  
+}
+.pad-1{
+    padding: 1px!important;
+}
+.row2 .card.border:hover{
+    background: lightgray;
+    border: 1px solid #000!important;
+}
+.bg-w.row2{
+    font-weight: 600;
+}
+.pad-bottom-0{
+    padding-bottom: 0px!important;
+}
+.gift{
+    background-image: url(../img/bg.jpg);
+   background-size: cover;
+   color:#fff;
+      background-position: center center;
+    width: 100%;
+    height: auto;
+padding: 100px 0px;    
+}
+.c-b{
+    color: #000!important;
+}
+
+.content-container {
+    position: relative;
+    width: 100%;
+   height: 200px;
+}
+.content-container div {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.MyServices img{
+    width: 80%;
+}
+footer .svg-inline--fa{
+    font-size: 35px;
+    margin: 5px;
+}
+footer {
+    background: #fafafa;
+}
+footer img{
+    width: 60px;
+    margin: 10px;
+}
+.product-count
+{
+	margin-bottom: 13px;
+    white-space: nowrap;}
+
+	.product-count    >*,input.form-control:disabled
+	{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		
+		border: 1px solid #e1e3e6;
+		vertical-align: middle;
+		text-indent: 0;
+		text-align: center;
+	}
+.start{
+    position: fixed;
+    bottom: 30;
+    right: 30;
+    opacity: .8;
+    z-index: 1;
+}
+.bg-category{
+    background-image: url(../img/bg1.jpg);
+    color: #fff;
+    padding: 10px 0px;
+}
+.clear-both{
+    clear: both;
+}
+.hide{
+    display: none;
+}
+/* story */
+
+.story{
+    position: relative;
+	height: auto;
+	background: url(../img/treaty-story.jpg) fixed;
+	margin: 50px -15px 0px;
+   
+}
+.story .bg-light{
+    width: 400px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+.personalize img{
+  width: 25px;  
+}
+.bracelets{
+    font-family:BRACELET ;
+      font-weight: bolder;
+}
+.earrings{
+    font-family: Warmesty ;
+      font-weight: bolder;
+}
+.Letters{
+    font-family: ZephanDemoVer  ;
+      font-weight: bolder;
+}
+.necklaces{
+    font-family: Necklace  ;
+      font-weight: bolder;
+}
+.madelyn{
+    font-family: Madelyn  ;
+        font-weight: bolder;
+}
+.simple{
+    font-weight: bolder;
+   font-family: Simple  ;
+}
+
+.script{
+     font-style: italic;
+    font-weight: bolder;
+}
+
+.block{
+     font-style:normal;
+    font-weight: bolder;
+}
+
+.roman{
+         font-family:roman;
+    font-weight: bolder;
+}
+
+.mr-top{
+    margin-top: 1rem!important;
+}
+.c-w{
+    color: #fff!important;
+}
+   
+.btn-dark{
+background:#5f3909!important;
+border-color:#5f3909!important;
+}
+.btn-secondary{
+background:#c89d66!important;
+border-color:#c89d66!important;
+}
+.relative{
+    position: relative!important;
+}
+
+
+.h{
+    height: 60vh;
+}
+.abs{
+    position: absolute;
+    right:10;
+    top:10;
+   
+
+    
+}
+.heart{
+      display: none;  
+}
+.relative:hover .heart{
+ display: block;   
+     z-index: 9;
+}
+.red{
+    color:red;
+}
+ul .svg-inline--fa ,footer .svg-inline--fa{
+    color:#c89d66;
+}
+
+hr{
+    padding: 0px!important;
+}
+
+
+.fileUpload {
+   margin: auto!important
+    overflow: hidden;
+   
+   
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    border-radius: 50%; 
+    z-index: 11111111;
+}
+
+ input , textarea ,select{
+    border: none!important;
+         box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+   }
+.personalize input{
+    border: none;
+     top:20;
+    right: 12%;
+left: 10%;
+    width: 78%;
+     position: absolute;
+    padding: 0px;
+box-shadow:none!important;
+} 
+
+.personalize input:focus{
+    
+    border: none!important;
+        outline: 0px!important;
+
+
+}
